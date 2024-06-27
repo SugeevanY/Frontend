@@ -38,7 +38,8 @@ export const routes: Routes = [
         children: [
           {path: 'requests', component: WorkerRequestComponent},
           {path: 'fieldWorkers', component: WorkersComponent},
-          {path: 'users', component: UsersComponent}
+          {path: 'users', component: UsersComponent},
+          {path: 'complaint', component: ComplaintComponent}
         ]
       },
 

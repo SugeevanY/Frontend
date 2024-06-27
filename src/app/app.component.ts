@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component ,OnInit} from '@angular/core';
 import {RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
 import {FormsModule} from "@angular/forms";
 import {CloudinaryModule} from "@cloudinary/ng";
@@ -20,5 +20,5 @@ export class AppComponent {
   title = 'HandyHero';
 
 }
-//Sugee
+
 
