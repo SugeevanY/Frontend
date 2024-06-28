@@ -54,6 +54,8 @@ export class FindComponent implements OnInit {
   employees: any[] = [];
   employeesStatistic: any[] = [];
 
+  QuatationFile: File | undefined;
+
   constructor() { }
 
   ngOnInit() {
@@ -71,6 +73,10 @@ export class FindComponent implements OnInit {
   onRatingChange(event: any) {
     this.selectedRating = event.target.value;
     this.filterEmployees();
+  }
+
+  onFileSelected(event: any) {
+    this.QuatationFile = event.target.files[0];
   }
 
   filterEmployees() {

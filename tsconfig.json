@@ -2,6 +2,13 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    // "baseUrl": "./",
+    // "paths": {
+    //   "@app/*": ["src/app/*"]
+    // },
     "outDir": "./dist/out-tsc",
     "strict": true,
     "noImplicitOverride": true,
